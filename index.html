@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataSci Academy | Master AI & Data Science</title>
+    <meta name="description" content="Accelerate your career with our comprehensive online courses.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Movie Success Predictor Masterclass",
+      "description": "Learn algorithmic thinking, divide and conquer models, and data preprocessing to build predictive machine learning models.",
+      "provider": {
+        "@type": "Organization",
+        "name": "DataSci Academy",
+        "sameAs": "https://www.yourdomain.com"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "124"
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">DataSci<span>Academy</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="login.html" class="btn-nav">Log In</a></li>
+            <li><a href="register.html" class="btn-primary">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Launch Your Career in Data Science & AI</h1>
+                <p>Master Python, machine learning, and neural networks. Build real-world portfolio pieces, from Movie
+                    Success Predictors to IoT Predictive Maintenance systems.</p>
+                <a href="register.html" class="btn-primary">Start Learning Now</a>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <h2>Why Learn With Us?</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Build Real Projects</h3>
+                    <p>Move beyond theory. Develop functional data models and advanced algorithms.</p>
+                </div>
+                <div class="card">
+                    <h3>Expert Mentorship</h3>
+                    <p>Learn directly from industry professionals and researchers.</p>
+                </div>
+                <div class="card">
+                    <h3>Audit or Certify</h3>
+                    <p>Audit our courses entirely for free, or upgrade to earn a verified certificate.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <div class="footer-column brand-col">
+                <div class="logo footer-logo">DataSci<span>Academy</span></div>
+                <p>Empowering the next generation of data scientists and AI researchers. Build real-world predictive
+                    models and advance your career.</p>
+                <div class="social-links">
+                    <a href="#">🔗 LinkedIn</a>
+                    <a href="#">🐦 Twitter</a>
+                    <a href="#">💻 GitHub</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Course Catalog</a></li>
+                    <li><a href="#">Free Tutorials</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column newsletter-col">
+                <h3>Join Our Newsletter</h3>
+                <p>Get weekly tips on Python, Machine Learning, and exclusive course discounts.</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+                <p id="newsletter-message" class="hidden success-msg">Thanks for subscribing!</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 DataSci Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const newsletterForm = document.getElementById('newsletter-form');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                document.getElementById('newsletter-message').classList.remove('hidden');
+                newsletterForm.reset();
+                setTimeout(() => {
+                    document.getElementById('newsletter-message').classList.add('hidden');
+                }, 3000);
+            });
+        }
+    </script>
+</body>
+
+</html>

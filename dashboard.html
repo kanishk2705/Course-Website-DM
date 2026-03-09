@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | CoursePlatform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-bg">
+
+    <nav class="navbar dashboard-nav">
+        <div class="logo">DataSci<span>Academy</span></div>
+
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search courses (e.g., Deep Learning, IoT)...">
+            <button id="search-btn">🔍</button>
+        </div>
+
+        <ul class="nav-links">
+            <li><span id="user-greeting" class="greeting-text">Hello!</span></li>
+            <li><a href="my-courses.html" class="nav-link">My Courses</a></li>
+            <li><button id="logout-btn" class="btn-secondary nav-btn">Log Out</button></li>
+        </ul>
+    </nav>
+
+    <main class="dashboard-main">
+        <section class="categories-section">
+            <h2>Explore Categories</h2>
+            <div class="category-chips" id="category-chips">
+                <button class="chip active" data-category="All">All</button>
+                <button class="chip" data-category="Data Science">Data Science</button>
+                <button class="chip" data-category="Artificial Intelligence">Artificial Intelligence</button>
+                <button class="chip" data-category="Machine Learning">Machine Learning</button>
+                <button class="chip" data-category="IoT">IoT</button>
+            </div>
+        </section>
+
+        <section class="courses-section">
+            <h2 id="section-title">Top Rated Courses</h2>
+            <div class="course-grid" id="course-grid">
+            </div>
+            <div id="no-results" class="hidden">
+                <p>No courses found matching your search. Try another keyword!</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

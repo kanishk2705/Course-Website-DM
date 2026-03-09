@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details | CoursePlatform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dashboard-bg">
+
+    <nav class="navbar dashboard-nav">
+        <div class="logo">DataSci<span>Academy</span></div>
+        <ul class="nav-links">
+            <li><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+            <li><a href="my-courses.html" class="nav-link">My Courses</a></li>
+            <li><button id="logout-btn" class="btn-secondary nav-btn">Log Out</button></li>
+        </ul>
+    </nav>
+
+    <main class="course-detail-main">
+        <a href="dashboard.html" class="back-link">← Back to Dashboard</a>
+
+        <div class="detail-container">
+            <div class="course-content">
+                <span id="detail-category" class="course-category">Category</span>
+                <h1 id="detail-title">Course Title</h1>
+                <p id="detail-instructor" class="detail-instructor">Instructor Name</p>
+
+                <img id="detail-image" src="" alt="Course Image" class="detail-hero-img">
+
+                <div class="course-description">
+                    <h2>About This Course</h2>
+                    <p id="detail-desc">Course description goes here.</p>
+                </div>
+
+                <div class="course-syllabus">
+                    <h2>What You Will Learn</h2>
+                    <ul>
+                        <li>Understand the theoretical foundations and math.</li>
+                        <li>Build a real-world project from scratch.</li>
+                        <li>Prepare for advanced R&D industry roles.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pricing-card">
+                <div class="price-header">
+                    <h2>Get Certified</h2>
+                    <p class="price-amount" id="detail-price">$0.00</p>
+                </div>
+
+                <div class="enrollment-options">
+                    <div class="option">
+                        <h3>Audit Mode (Free)</h3>
+                        <p>Access all video materials and basic exercises.</p>
+                        <button id="btn-audit" class="btn-secondary full-width">Audit Course</button>
+                    </div>
+
+                    <hr class="divider">
+
+                    <div class="option">
+                        <h3>Verified Track</h3>
+                        <p>Includes graded exams, instructor feedback, and an official certificate upon completion.</p>
+                        <button id="btn-buy" class="btn-primary full-width">Buy & Certify</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="course-detail.js"></script>
+</body>
+
+</html>

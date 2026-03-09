@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploying a Digital Detox Predictor with Random Forest | DataSci Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">DataSci<span>Academy</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">← Back to Tutorials</a></li>
+        </ul>
+    </nav>
+
+    <main class="article-main">
+        <article class="post-content">
+            <header class="post-header">
+                <span class="blog-category">Deployment</span>
+                <h1>Deploying a Digital Detox Predictor with Random Forest & Streamlit</h1>
+                <div class="post-meta">
+                    <span>Published on March 8, 2026</span> • <span>8 min read</span>
+                </div>
+            </header>
+
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80"
+                alt="Coding on a laptop" class="post-hero-image">
+
+            <div class="post-body">
+                <h2>Introduction</h2>
+                <p>Building a model in a Jupyter notebook is only half the battle. To truly showcase your skills to
+                    employers or fellowship committees, you need to deploy your model so anyone in the world can
+                    interact with it.</p>
+
+                <p>In this tutorial, we will take a Random Forest model trained to predict digital detox success and
+                    deploy it using Streamlit Community Cloud.</p>
+
+                <h2>Step 1: Preparing the Random Forest Model</h2>
+                <p>Before we touch the web framework, we must ensure our champion model is properly serialized. We use
+                    <code>joblib</code> or <code>pickle</code> to save our trained Random Forest classifier.</p>
+
+                <div class="in-article-cta">
+                    <h3>Want to master the math behind Random Forest?</h3>
+                    <p>Enroll in our Statistical Foundations course and build models from scratch.</p>
+                    <a href="register.html" class="btn-primary">Start Free Audit</a>
+                </div>
+
+                <h2>Step 2: Building the Streamlit Interface</h2>
+                <p>Streamlit allows us to build interactive web apps using pure Python. We will create sliders for user
+                    inputs (like daily screen time) and a button to trigger the prediction.</p>
+
+                <pre><code>
+import streamlit as st
+import joblib
+
+# Load the model
+model = joblib.load('detox_model.pkl')
+
+st.title("Digital Detox Predictor")
+screen_time = st.slider("Daily Screen Time (Hours)", 0, 24, 5)
+                </code></pre>
+
+                <h2>Conclusion</h2>
+                <p>Deploying your projects proves you understand the full end-to-end lifecycle of data science. Start
+                    building your portfolio today.</p>
+            </div>
+        </article>
+    </main>
+
+</body>
+
+</html>

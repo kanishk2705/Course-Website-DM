@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Player | CoursePlatform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="player-bg">
+
+    <nav class="navbar player-nav">
+        <div class="logo">DataSci<span>Academy</span></div>
+        <ul class="nav-links">
+            <li><a href="my-courses.html" class="nav-link">← Back to My Courses</a></li>
+        </ul>
+    </nav>
+
+    <main class="player-main">
+        <div class="player-layout">
+
+            <div class="video-section">
+                <div class="video-container">
+                    <video id="course-video" width="100%" height="100%" controls controlsList="nodownload">
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="video-details">
+                    <h1 id="player-course-title">Loading Course...</h1>
+                    <p id="player-course-instructor" class="instructor-text">Instructor Name</p>
+
+                    <div class="action-buttons">
+                        <button id="btn-complete" class="btn-primary">Mark as Complete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist-section">
+                <h2>Course Content</h2>
+                <div class="progress-header">
+                    <span id="progress-text">0% Completed</span>
+                </div>
+
+                <ul class="module-list">
+                    <li class="module-item active">
+                        <span class="play-icon">▶</span>
+                        <div>
+                            <h4>1. Introduction & Setup</h4>
+                            <p>15 mins</p>
+                        </div>
+                    </li>
+                    <li class="module-item">
+                        <span class="play-icon">🔒</span>
+                        <div>
+                            <h4>2. Data Preprocessing</h4>
+                            <p>45 mins</p>
+                        </div>
+                    </li>
+                    <li class="module-item">
+                        <span class="play-icon">🔒</span>
+                        <div>
+                            <h4>3. Building the Model</h4>
+                            <p>60 mins</p>
+                        </div>
+                    </li>
+                    <li class="module-item">
+                        <span class="play-icon">🔒</span>
+                        <div>
+                            <h4>4. Final Project & Evaluation</h4>
+                            <p>120 mins</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="player.js"></script>
+</body>
+
+</html>
