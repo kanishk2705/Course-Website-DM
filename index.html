@@ -27,6 +27,14 @@
       }
     }
     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C3T1CXGMNX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C3T1CXGMNX');
+    </script>
 </head>
 
 <body>
@@ -106,18 +114,27 @@
             <div class="footer-column newsletter-col">
                 <h3>Join Our Newsletter</h3>
                 <p>Get weekly tips on Python, Machine Learning, and exclusive course discounts.</p>
-                <form id="newsletter-form" class="newsletter-form">
-                    <input type="email" id="newsletter-email" placeholder="Enter your email" required>
-                    <button type="submit" class="btn-primary">Subscribe</button>
+
+                <form action="https://yourdomain.usX.list-manage.com/subscribe/post?u=YOUR_U_ID&amp;id=YOUR_LIST_ID"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                    class="newsletter-form" target="_blank" novalidate>
+
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+                        placeholder="Enter your email" required>
+
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_YOUR_U_ID_YOUR_LIST_ID" tabindex="-1" value="">
+                    </div>
+
+                    <button type="submit" name="subscribe" id="mc-embedded-subscribe"
+                        class="btn-primary">Subscribe</button>
                 </form>
-                <p id="newsletter-message" class="hidden success-msg">Thanks for subscribing!</p>
             </div>
+            <p id="newsletter-message" class="hidden success-msg">Thanks for subscribing!</p>
 
-        </div>
-
-        <div class="footer-bottom">
-            <p>&copy; 2026 DataSci Academy. All rights reserved.</p>
-        </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DataSci Academy. All rights reserved.</p>
+            </div>
     </footer>
 
     <script>
