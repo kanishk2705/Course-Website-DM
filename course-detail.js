@@ -50,6 +50,26 @@ document.addEventListener('DOMContentLoaded', () => {
             price: '$79.99',
             image: 'https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?auto=format&fit=crop&w=800&q=80',
             description: 'Apply machine learning to sensor data. Learn how to predict equipment failures before they happen, a highly sought-after skill in the industrial automation sector.'
+        },
+        {
+            id: 'llm501', title: 'Large Language Models: BERT to GPT', instructor: 'Ilya Sutskever', category: 'Artificial Intelligence', price: '$99.99',
+            image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80',
+            description: 'Understand the mathematical foundations of modern NLP. From attention mechanisms to the architecture of BERT and GPT models, learn how to build and fine-tune large language models.'
+        },
+        {
+            id: 'web601', title: 'Full-Stack Web Technologies', instructor: 'Tim Berners-Lee', category: 'Data Science', price: '$49.99',
+            image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=800&q=80',
+            description: 'Master the full stack. Build responsive front-ends with HTML5, CSS3, and JavaScript, and connect them to robust server-side architectures to deploy your applications to the world.'
+        },
+        {
+            id: 'rec701', title: 'Building Recommender Systems', instructor: 'Fei-Fei Li', category: 'Machine Learning', price: '$69.99',
+            image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=800&q=80',
+            description: 'Dive into the algorithms that power modern content platforms. Learn collaborative filtering, content-based approaches, and the graph theory foundations necessary to predict user preferences.'
+        },
+        {
+            id: 'vid801', title: 'Video Creation and Editing Concepts', instructor: 'Christopher Nolan', category: 'Data Science', price: '$39.99',
+            image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=800&q=80',
+            description: 'A comprehensive guide to the technical and creative aspects of filmmaking. Master storyboarding, scripting, and non-linear editing concepts to produce professional-grade video content.'
         }
     ];
 

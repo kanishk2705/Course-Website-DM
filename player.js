@@ -52,6 +52,37 @@ document.addEventListener('DOMContentLoaded', () => {
                 { title: '3. Digital Abstraction & Data', duration: '51 mins', url: 'https://archive.org/download/MIT6.002S07/MIT6_002S07_lec03_300k.mp4' },
                 { title: '4. System Maintenance & Node Analysis', duration: '48 mins', url: 'https://archive.org/download/MIT6.002S07/MIT6_002S07_lec04_300k.mp4' }
             ]
+        },
+        {
+            id: 'llm501', title: 'Large Language Models: BERT to GPT', instructor: 'Ilya Sutskever',
+            modules: [
+                { title: '1. Attention Mechanisms', duration: '55 mins', url: 'https://archive.org/download/MIT6.034F10/MIT6_034F10_lec12_300k.mp4' },
+                { title: '2. Transformer Architecture', duration: '60 mins', url: 'https://archive.org/download/MIT6.034F10/MIT6_034F10_lec13_300k.mp4' },
+                { title: '3. Fine-tuning Strategies', duration: '45 mins', url: 'https://archive.org/download/MIT6.034F10/MIT6_034F10_lec14_300k.mp4' }
+            ]
+        },
+        {
+            id: 'web601', title: 'Full-Stack Web Technologies', instructor: 'Tim Berners-Lee',
+            modules: [
+                { title: '1. Semantic HTML & Modern CSS', duration: '40 mins', url: 'https://archive.org/download/MIT6.002S07/MIT6_002S07_lec03_300k.mp4' },
+                { title: '2. JavaScript & DOM Manipulation', duration: '55 mins', url: 'https://archive.org/download/MIT6.002S07/MIT6_002S07_lec04_300k.mp4' },
+                { title: '3. Server-Side Architectures', duration: '50 mins', url: 'https://archive.org/download/MIT6.002S07/MIT6_002S07_lec05_300k.mp4' }
+            ]
+        },
+        {
+            id: 'rec701', title: 'Building Recommender Systems', instructor: 'Fei-Fei Li',
+            modules: [
+                { title: '1. Graph Theory Foundations', duration: '45 mins', url: 'https://archive.org/download/MIT18.06S05_MP4/03.mp4' },
+                { title: '2. Collaborative Filtering', duration: '50 mins', url: 'https://archive.org/download/MIT18.06S05_MP4/04.mp4' },
+                { title: '3. Content-Based Approaches', duration: '48 mins', url: 'https://archive.org/download/MIT18.06S05_MP4/05.mp4' }
+            ]
+        },
+        {
+            id: 'vid801', title: 'Video Creation and Editing Concepts', instructor: 'Christopher Nolan',
+            modules: [
+                { title: '1. Storyboarding & Scripting', duration: '35 mins', url: 'https://archive.org/download/MIT6.046JF05/MIT6_046JF05_lec03_300k.mp4' },
+                { title: '2. Non-Linear Editing Basics', duration: '42 mins', url: 'https://archive.org/download/MIT6.046JF05/MIT6_046JF05_lec04_300k.mp4' }
+            ]
         }
     ];
 

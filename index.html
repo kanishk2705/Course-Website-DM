@@ -4,35 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DataSci Academy | Master AI & Data Science</title>
-    <meta name="description" content="Accelerate your career with our comprehensive online courses.">
-
+    <title>AlgoForge | Master Advanced AI & Data Science</title>
+    <meta name="description"
+        content="Go beyond the basics. Build and deploy portfolio-grade machine learning models, from IoT predictive maintenance to LLMs.">
     <link rel="stylesheet" href="style.css">
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Course",
-      "name": "Movie Success Predictor Masterclass",
-      "description": "Learn algorithmic thinking, divide and conquer models, and data preprocessing to build predictive machine learning models.",
-      "provider": {
-        "@type": "Organization",
-        "name": "DataSci Academy",
-        "sameAs": "https://www.yourdomain.com"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "124"
-      }
-    }
-    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C3T1CXGMNX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-C3T1CXGMNX');
     </script>
 </head>
@@ -40,9 +21,10 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo">DataSci<span>Academy</span></div>
+        <div class="logo">Algo<span>Forge</span></div>
         <ul class="nav-links">
             <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="blog.html">Tutorials</a></li>
             <li><a href="login.html" class="btn-nav">Log In</a></li>
             <li><a href="register.html" class="btn-primary">Sign Up</a></li>
         </ul>
@@ -51,27 +33,65 @@
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1>Launch Your Career in Data Science & AI</h1>
-                <p>Master Python, machine learning, and neural networks. Build real-world portfolio pieces, from Movie
-                    Success Predictors to IoT Predictive Maintenance systems.</p>
-                <a href="register.html" class="btn-primary">Start Learning Now</a>
+                <h1>Master the Math. Deploy the Code.</h1>
+                <p>Don't just memorize syntax. Understand the theoretical foundations of AI and build end-to-end,
+                    portfolio-grade predictive models that stand out to tech recruiters and graduate programs.</p>
+                <div class="hero-buttons">
+                    <a href="register.html" class="btn-primary">Start Learning for Free</a>
+                    <a href="blog.html" class="btn-secondary"
+                        style="margin-left: 10px; color: white; border-color: white;">Read Tutorials</a>
+                </div>
             </div>
         </section>
 
-        <section class="highlights">
-            <h2>Why Learn With Us?</h2>
+        <section class="featured-preview">
+            <div class="section-header">
+                <h2>Industry-Aligned Curriculum</h2>
+                <p>Master cutting-edge technologies used in today's top research labs and tech companies.</p>
+            </div>
             <div class="card-container">
-                <div class="card">
-                    <h3>Build Real Projects</h3>
-                    <p>Move beyond theory. Develop functional data models and advanced algorithms.</p>
+                <div class="card course-preview-card">
+                    <span class="badge">Machine Learning</span>
+                    <h3>Movie Success Predictor</h3>
+                    <p>Engineer features and train models to predict box office revenue and audience reception.</p>
                 </div>
-                <div class="card">
-                    <h3>Expert Mentorship</h3>
-                    <p>Learn directly from industry professionals and researchers.</p>
+                <div class="card course-preview-card">
+                    <span class="badge">Industrial IoT</span>
+                    <h3>Predictive Maintenance</h3>
+                    <p>Process raw sensor data to calculate Remaining Useful Life (RUL) and prevent hardware failure.
+                    </p>
                 </div>
-                <div class="card">
-                    <h3>Audit or Certify</h3>
-                    <p>Audit our courses entirely for free, or upgrade to earn a verified certificate.</p>
+                <div class="card course-preview-card">
+                    <span class="badge">Deep Learning</span>
+                    <h3>Large Language Models</h3>
+                    <p>Understand attention mechanisms and fine-tune transformer architectures from BERT to GPT.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="register.html" class="btn-primary">View Full Catalog</a>
+            </div>
+        </section>
+
+        <section class="how-it-works" style="background: var(--bg-gray); padding: 5rem 5%;">
+            <div class="section-header" style="text-align: center; margin-bottom: 3rem;">
+                <h2>Your Path to Mastery</h2>
+            </div>
+            <div class="step-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; text-align: center;">
+                <div class="step">
+                    <div class="step-icon" style="font-size: 3rem; margin-bottom: 1rem;">🧠</div>
+                    <h3>1. Learn the Theory</h3>
+                    <p>Grasp the complex calculus and linear algebra powering the algorithms.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon" style="font-size: 3rem; margin-bottom: 1rem;">💻</div>
+                    <h3>2. Write the Code</h3>
+                    <p>Implement architectures from scratch using Python, PyTorch, and scikit-learn.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon" style="font-size: 3rem; margin-bottom: 1rem;">🚀</div>
+                    <h3>3. Deploy & Showcase</h3>
+                    <p>Push your models to the web using Streamlit or React frontends for the world to see.</p>
                 </div>
             </div>
         </section>
@@ -79,15 +99,14 @@
 
     <footer class="site-footer">
         <div class="footer-container">
-
             <div class="footer-column brand-col">
-                <div class="logo footer-logo">DataSci<span>Academy</span></div>
-                <p>Empowering the next generation of data scientists and AI researchers. Build real-world predictive
-                    models and advance your career.</p>
+                <div class="logo footer-logo">Algo<span>Forge</span></div>
+                <p>Empowering the next generation of data scientists, developers, and AI researchers to build the
+                    future.</p>
                 <div class="social-links">
-                    <a href="#">🔗 LinkedIn</a>
-                    <a href="#">🐦 Twitter</a>
-                    <a href="#">💻 GitHub</a>
+                    <a href="https://linkedin.com" target="_blank">🔗 LinkedIn</a>
+                    <a href="https://twitter.com" target="_blank">🐦 Twitter</a>
+                    <a href="https://github.com" target="_blank">💻 GitHub</a>
                 </div>
             </div>
 
@@ -95,8 +114,8 @@
                 <h3>Explore</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="dashboard.html">Course Catalog</a></li>
-                    <li><a href="#">Free Tutorials</a></li>
+                    <li><a href="login.html">Course Catalog</a></li>
+                    <li><a href="blog.html">Free Tutorials</a></li>
                     <li><a href="about.html">About Us</a></li>
                 </ul>
             </div>
@@ -104,9 +123,9 @@
             <div class="footer-column">
                 <h3>Legal</h3>
                 <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="legal.html#privacy">Privacy Policy</a></li>
+                    <li><a href="legal.html#terms">Terms of Service</a></li>
+                    <li><a href="legal.html#refund">Refund Policy</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
@@ -114,43 +133,24 @@
             <div class="footer-column newsletter-col">
                 <h3>Join Our Newsletter</h3>
                 <p>Get weekly tips on Python, Machine Learning, and exclusive course discounts.</p>
-
                 <form
                     action="https://app.us13.list-manage.com/subscribe/post?u=a849f355f33e2ac12566f2df1&amp;id=b4386539dd&amp;f_id=00be77e1f0"
                     method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                     class="newsletter-form" target="_blank" novalidate>
-
                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
                         placeholder="Enter your email" required>
-
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
                         <input type="text" name="b_a849f355f33e2ac12566f2df1_b4386539dd" tabindex="-1" value="">
                     </div>
-
                     <button type="submit" name="subscribe" id="mc-embedded-subscribe"
                         class="btn-primary">Subscribe</button>
                 </form>
             </div>
-            <p id="newsletter-message" class="hidden success-msg">Thanks for subscribing!</p>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 DataSci Academy. All rights reserved.</p>
-            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AlgoForge. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script>
-        const newsletterForm = document.getElementById('newsletter-form');
-        if (newsletterForm) {
-            newsletterForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                document.getElementById('newsletter-message').classList.remove('hidden');
-                newsletterForm.reset();
-                setTimeout(() => {
-                    document.getElementById('newsletter-message').classList.add('hidden');
-                }, 3000);
-            });
-        }
-    </script>
 </body>
 
 </html>

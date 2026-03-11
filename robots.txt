@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://course-website-dm.vercel.app/sitemap.xml

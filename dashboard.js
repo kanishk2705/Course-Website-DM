@@ -54,6 +54,22 @@ document.addEventListener('DOMContentLoaded', () => {
             rating: 4.9,
             price: '$79.99',
             image: 'https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?auto=format&fit=crop&w=400&q=80'
+        },
+        {
+            id: 'llm501', title: 'Large Language Models: BERT to GPT', instructor: 'Ilya Sutskever', category: 'Artificial Intelligence', rating: 4.9, price: '$99.99',
+            image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=400&q=80'
+        },
+        {
+            id: 'web601', title: 'Full-Stack Web Technologies', instructor: 'Tim Berners-Lee', category: 'Data Science', rating: 4.6, price: '$49.99',
+            image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=400&q=80'
+        },
+        {
+            id: 'rec701', title: 'Building Recommender Systems', instructor: 'Fei-Fei Li', category: 'Machine Learning', rating: 4.8, price: '$69.99',
+            image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=400&q=80'
+        },
+        {
+            id: 'vid801', title: 'Video Creation and Editing Concepts', instructor: 'Christopher Nolan', category: 'Data Science', rating: 4.7, price: '$39.99',
+            image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=400&q=80'
         }
     ];
 
